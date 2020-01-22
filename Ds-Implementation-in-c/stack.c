@@ -18,11 +18,12 @@ typedef struct{
 }stack;
 
 stack s;
-s.top = -1;
+//s.top = -1;
 
 int main()
 {
     int foo,x;
+    s.top = -1;
     printf("***MENU*******\n\t1) Push\n\t2) Pop\n\t3) Peek \n\t 4) Exit\n");
     do{
 
